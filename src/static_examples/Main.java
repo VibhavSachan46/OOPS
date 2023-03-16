@@ -10,12 +10,41 @@ public class Main
 //        System.out.println(vibhav.name);
 //        System.out.println(Human.population);
 
-        greeting();
+//        greeting();
+        fun();
     }
 
-    static void greeting(){
-        System.out.println("Hello world");
+    static void fun(){
+        System.out.println("static function");
+        //greeting(); cannot use this as it requires an instance,
+        //but the functoin you are using it in does not depend on instance.
+
+
+        // we cannot accesss non static stuff without referring
+        // their instance in  a static context.
+
+        //here iam referencing it.
+        Main obj = new Main();
+        obj.greeting();
     }
+
+
+    //this belongs to some instance
+    void greeting(){
+
+        System.out.println("Non static");
+        greet();
+    }
+
+    void greet(){
+        System.out.println("Another");
+    }
+
+    //this is not dependent on objects coz it is static.
+    // It does not belong to instance
+
+
+
 
 
 }

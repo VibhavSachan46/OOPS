@@ -12,5 +12,22 @@ correct-
 It must be used using class name
 eg - System.out.println(Human.population);
 
+
 *Important
+From static we cannot use non static stuffffffff.
+
+
+
 Main function is static. Which means we can use main method without creating object of that class.
+
+Static method can only access static data.
+
+Because somthing which is not static belonge to object.
+
+
+Non static fun are dependent on objects.
+
+
+non static fun can be called from another non static fun.
+
+this doesnot work in static fun.
