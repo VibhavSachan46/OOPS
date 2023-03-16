@@ -1,0 +1,16 @@
+// in java there is no pass by reference. Only Pass by value.
+Thats why swap function doesnot work in java . bcz it only passes value of variables not there reference.
+
+
+Static variable -
+
+wrong-
+while accessing , declaring or modifieng static variable never do by a reference variable. It will work but never do
+eg - System.out.println(Vibhav.population);
+
+correct-
+It must be used using class name
+eg - System.out.println(Human.population);
+
+*Important
+Main function is static. Which means we can use main method without creating object of that class.
