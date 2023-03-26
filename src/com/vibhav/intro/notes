@@ -31,3 +31,9 @@ Non static fun are dependent on objects.
 non static fun can be called from another non static fun.
 
 this doesnot work in static fun.
+
+Lecture 3
+
+Private variables can be used in that specific files only. Not even in child class
+
+Super class -

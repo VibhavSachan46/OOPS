@@ -2,9 +2,18 @@ package properties.inheritance;
 
 public class Box {
 
-    double l,w,h;
+    double l;
+    double h;
+    double w;
 
     Box() {
+        super(); //object class
+        this.l = -1;
+        this.w = -1;
+        this.h = -1;
+    }
+
+    Box(double l, double w, double h) {
         this.l = -1;
         this.w = -1;
         this.h = -1;
